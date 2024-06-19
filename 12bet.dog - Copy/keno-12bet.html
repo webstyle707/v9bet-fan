@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>keno-12bet</title>
+  </head>
+  <body class="bg-[#444444]">
+    <div class="max-w-[1150px] mx-auto bg-white border-4 border-gray-200">
+      <!-- header -->
+      <div>
+        <!-- logo -->
+        <div
+          class="flex justify-center lg:justify-start items-center w-full px-4 md:px-8 xl:px-16 py-8"
+        >
+          <a href="./index.html">
+            <img class="" src="./Images/logo2.png" alt="" />
+          </a>
+        </div>
+
+        <!-- menu -->
+        <div
+          class="md:hidden flex flex-col border-b-4 text-2xl py-2 lg:pl-10 border-t-4 border-gray-200 bg-gray-100"
+        >
+          <div class="z-20 flex items-center justify-center">
+            <ion-icon
+              name="menu-outline"
+              onclick="myFunction()"
+              class="dropbtn"
+            ></ion-icon>
+          </div>
+
+          <div id="myDropdown" class="dropdown-content mt-9">
+            <p></p>
+            <a class="text-[14px]" href="./index.html">Trang Chủ</a>
+            <a class="text-[14px]" href="./dang-ky-12bet.html">Đăng Ký 12Bet</a>
+            <a class="text-[14px]" href="./nap-tien-12bet.html">Nạp Tiền</a>
+            <a class="text-[14px]" href="./rut-tien-12bet.html">Rút Tiền</a>
+            <a class="text-[14px]" href="./tai-12bet-app.html">Tải App 12Bet</a>
+            <a class="text-[14px]" href="./ho-tro-truc-tuyen-12bet-help.html"
+              >Hỗ trợ trực tuyến</a
+            >
+            <a class="text-[14px]" href="./blog-ca-cuoc.html">Blog Cá Cược</a>
+            <a class="text-[14px]" href="./keo-nha-cai-12bet.html"
+              >Soi kèo – Nhận định</a
+            >
+          </div>
+        </div>
+
+        <div
+          class="hidden z-0 border-b-4 text-sm pl-6 lg:pl-10 border-t-4 border-gray-200 bg-gray-100 *:px-5 *:md:py-1 *:lg:py-5 md:flex flex-wrap justify-center lg:justify-start items-center lg:space-x-2 space-x-1"
+        >
+          <a
+            class="hover:bg-white transition-all duration-200"
+            href="./index.html"
+            >Trang Chủ</a
+          >
+          <a
+            class="hover:bg-white transition-all duration-200"
+            href="./dang-ky-12bet.html"
+            >Đăng Ký 12Bet
+          </a>
+          <a
+            class="hover:bg-white transition-all duration-200"
+            href="./nap-tien-12bet.html"
+            >Nạp Tiền
+          </a>
+          <a
+            class="hover:bg-white transition-all duration-200"
+            href="./rut-tien-12bet.html"
+            >Rút Tiền
+          </a>
+          <a
+            class="hover:bg-white transition-all duration-200"
+            href="./tai-12bet-app.html"
+            >Tải App 12Bet
+          </a>
+          <a
+            class="hover:bg-white transition-all duration-200"
+            href="./ho-tro-truc-tuyen-12bet-help.html"
+            >Hỗ trợ trực tuyến
+          </a>
+          <a
+            class="hover:bg-white transition-all duration-200"
+            href="./blog-ca-cuoc.html"
+            >Blog Cá Cược
+          </a>
+          <a
+            class="hover:bg-white transition-all duration-200"
+            href="./keo-nha-cai-12bet.html"
+            >Soi kèo – Nhận định
+          </a>
+        </div>
+      </div>
+
+      <!-- container -->
+
+      <div
+        class="py-4 pl-4 md:pl-14 text-xs flex justify-start items-center md:space-x-3 space-x-1 border-b-4 border-gray-200"
+      >
+        <p class="text-red-600 font-semibold">
+          <a href="./index.html">12BET</a>
+        </p>
+        <p>></p>
+        <p class="font-semibold">
+          KENO 12BET – CHƠI NHƯ CHUYÊN GIA, HỌC TỪ CAO THỦ
+        </p>
+      </div>
+
+      <div class="py-16 space-y-6 px-4 md:px-8 xl:px-16 z-10">
+        <div class="space-y-3">
+          <h1
+            class="text-2xl md:text-3xl text-gray-600 font-semibold text-center"
+          >
+            Keno 12Bet – chơi như chuyên gia, học từ cao thủ
+          </h1>
+          <p class="text-[13px] text-gray-400 text-center">
+            Posted on
+            <span class="font-bold text-gray-600">10 THÁNG HAI, 2022</span>
+            Written by <span class="text-red-600 font-bold"> TRUC NHI</span>
+          </p>
+        </div>
+
+        <p>
+          Keno 12Bet là lựa chọn số 1 của nhiều người chơi tại nhà cái top 10 uy
+          tín nhất Việt nam. Với tỷ lệ thưởng lên đến tiền tỷ thì trò chơi mang
+          yếu tố may rủi như Keno vẫn không khiến người chơi nản lòng. Cách chơi
+          đơn giản, thưởng cực lớn và có vô số mẹo hữu ích được các dân chơi
+          truyền lại. Chơi Keno 12Bet phải chơi như chuyên gia học từ cao thủ
+          bạn sẽ sớm phát tài. Cùng 12BetNo1 tìm hiểu cách chơi keno đầy khôn
+          ngoan trong bài viết dưới đây.
+        </p>
+
+        <h1 class="text-xl md:text-2xl text-gray-600 font-semibold">
+          Đôi nét về trò chơi Keno 12Bet
+        </h1>
+
+        <p>
+          Chơi Keno tại 12bet cũng tuân theo luật chơi Keno thông thường, có
+          nguồn gốc từ Trung Quốc.
+        </p>
+
+        <p>
+          Trong thế giới game bài trực tuyến, Keno sẽ được thể hiện trong 80 quả
+          bóng. Mỗi quả được đánh 1 số từ 1 – 80. Nhiệm vụ của người chơi là
+          chọn tối thiểu 4 số và tối đa 10 số để đặt cược.
+        </p>
+
+        <div>
+          <img src="./Images/keno1.jpg" alt="" />
+        </div>
+
+        <p>
+          Nhà cái 12Bet.com sẽ có Dealer chịu trách nhiệm quay bóng và chọn ra
+          20 số ngẫu nhiên. Rồi từ 20 con số đó để định ra kết quả thắng hoặc
+          thua của người chơi.
+        </p>
+
+        <p>
+          Người chơi sẽ đặt cược vào các cửa Keno 12Bet với tỷ lệ thắng cực lớn,
+          nếu đặt cược thông minh với số tiền tương ứng, trở thành triệu phú sau
+          vài ván thắng liên tiếp là hoàn toàn có thể.
+        </p>
+
+        <h1 class="text-lg md:text-xl text-gray-600 font-semibold">
+          Một số kèo cược chủ yếu trong Keno 12Bet:
+        </h1>
+
+        <h1 class="md:text-lg text-gray-600 font-semibold">Kèo chẵn lẻ</h1>
+
+        <p>
+          Ở kèo này, nhà cái sẽ cộng tổng điểm của 20 quả bóng rút được. Người
+          chơi sẽ dự đoán số cuối của số tổng đó là chẵn hay lẻ và đặt cược vào
+          cửa chẵn hoặc lẻ.
+        </p>
+
+        <h1 class="md:text-lg text-gray-600 font-semibold">Kèo tài xỉu</h1>
+
+        <p>
+          Người chơi sẽ đặt vào cửa tài, cửa xỉu hoặc cửa hòa. Kết quả sẽ dựa
+          vào tổng điểm của 20 con số rút được là > 810 điểm (tài), < 810 điểm
+          (xỉu) hoặc = 810 điểm (hòa).
+        </p>
+
+        <h1 class="md:text-lg text-gray-600 font-semibold">
+          Kèo trên/dưới/hòa
+        </h1>
+
+        <p>
+          Ở kèo này, người chơi có 3 cửa đặt cược Trên – Dưới – Hòa. Người chơi
+          sẽ thắng nếu dự đoán của mình đúng với:
+        </p>
+
+        <ul class="list-disc pl-5 space-y-1">
+          <li>Kèo trên: Có nhiều hơn 10 bóng thuộc nhóm số 41 – 80</li>
+          <li>Kèo dưới: Có nhiều hơn 10 bóng thuộc nhóm số 1 – 40</li>
+          <li>
+            Kèo hòa: Nếu có 10 bóng thuộc nhóm 1 – 40 và 10 bóng thuộc nhóm 41 –
+            80
+          </li>
+        </ul>
+
+        <h1 class="md:text-lg text-gray-600 font-semibold">
+          Kèo các sỗ lẻ / hòa / các số chẵn
+        </h1>
+
+        <p>
+          Người chơi cũng có 3 lựa chọn đặt vào cửa các số chẵn, hòa hoặc các số
+          lẻ. Kết quả dựa vào những yếu tố như sau:
+        </p>
+
+        <ul class="list-disc pl-5 space-y-1">
+          <li>
+            Kèo các số chẵn thắng: Số lượng số chẵn > số lượng số lẻ trong 20
+            con số được rút ra.
+          </li>
+          <li>
+            Kèo các số lẻ thắng: Số lượng các số lẻ > số lượng các số chẵn trong
+            20 con số được rút ra.
+          </li>
+          <li>Kèo hòa thắng: Số lượng số lẻ = Số lượng số chẵn.</li>
+        </ul>
+
+        <h1 class="text-xl md:text-2xl text-gray-600 font-semibold">
+          Một số mẹo chơi Keno 12Bet dễ thắng nhà cái
+        </h1>
+
+        <h1 class="text-lg md:text-xl text-gray-600 font-semibold">
+          Sử dụng tốt xác suất thống kê
+        </h1>
+
+        <p>
+          Với trò chơi keno bạn cần có một đầu óc thông minh và khả năng ghi nhớ
+          tốt. Bởi vì nếu dự đoán các con số dựa hoàn toàn vào may mắn thì bạn
+          có thể thắng được 1, 2 lần nhưng không thể thắng mãi. Phần thua sẽ là
+          nhiều hơn. Ngược lại, nếu người chơi nắm rõ cách tính xác suất thống
+          kê bạn sẽ thường chiến thắng và có thể làm giàu với gam giải trí này.
+        </p>
+
+        <p>
+          Bí quyết chính ở đây là bạn nắm bắt được những con số thường xuyên và
+          không thường xuyên xuất hiện trong một quãng thời gian nhất định. Sau
+          đó vận dụng cách tính xác suất để tìm ra tỷ lệ sổ của mỗi số. Từ đó
+          bạn có sẽ những tính toán đặt cược sao cho có lợi nhất.
+        </p>
+
+        <h1 class="text-lg md:text-xl text-gray-600 font-semibold">
+          Cược ít nhưng chất lượng
+        </h1>
+
+        <p>
+          ếu bạn nghĩ đặt những vé cược Keno có nhiều số với số tiền cược rất
+          cao sẽ giúp bạn mau giàu. Điều đó cũng đúng nhưng ở chiều ngược lại
+          bạn cũng sẽ sớm mất hết vốn liếng.
+        </p>
+
+        <p>
+          Thay vì vậy, khi mới tham gia thị trường, bạn hãy đặt cược số tiền ít
+          mà chất lượng. Bạn nên chọn những vé Keno có ít con số, số tiền cược
+          thấp nhưng dễ thắng. Thắng ít nhưng nhiều lần, tích tiểu thành đại còn
+          hơn là chơi vồ vập để rồi 1 – 2 ván thua sấp mặt.
+        </p>
+
+        <h1 class="text-lg md:text-xl text-gray-600 font-semibold">
+          Khả năng ghi nhớ tốt
+        </h1>
+
+        <p>
+          Ngoài biết cách tính xác suất một cách thông minh thì bạn cũng phải có
+          khả năng ghi nhớ tốt. Với những con số nào đã ra quá nhiều trong những
+          lần xổ trước thì bạn có thể loại trừ bớt vì xác suất nó ra tiếp rất
+          thấp
+        </p>
+
+        <p>
+          Đặt cược có chọn lọc như vậy là một cách để bạn nâng cao tỷ lệ chiến
+          thắng của bản thân.
+        </p>
+
+        <h1 class="text-lg md:text-xl text-gray-600 font-semibold">
+          Linh hoạt trong chiến thuật đặt cược
+        </h1>
+
+        <p>
+          Có rất nhiều cách chơi Keno 12Bet khác nhau, mỗi cách đều có ưu điểm
+          và hạn chế nhất định. Vậy nên bạn đừng “treo cổ trên một cái cây”, hãy
+          đặt cược một cách linh hoạt.
+        </p>
+
+        <p>
+          Hãy thường xuyên thay đổi chiến thuật một cách linh hoạt nhất. Nếu 1
+          chiến thuật bạn dùng 3 ván liên tiếp đều thua thì hãy đổi sang chiến
+          thuật khác ngay nhé.
+        </p>
+
+        <h1 class="text-lg md:text-xl text-gray-600 font-semibold">
+          Đừng nên đặt cược theo số đông
+        </h1>
+
+        <p>
+          Trong trò đỏ đen chả bao giờ có chuyện số đông thì dễ thắng. Mặc dù
+          Keno 12Bet là trò chơi may rủi nhưng nếu bạn có cách đặt cược thông
+          minh thì cũng rất dễ thắng đó.
+        </p>
+
+        <p>
+          Thường thì bạn nên tránh làm theo số đông trong trường hợp 1 cửa nào
+          đó có đông đảo người chơi đặt cược. Thường cửa đó sẽ thua trong những
+          trường hợp như vậy. Cứ làm theo ý của bạn đi, bạn sẽ thắng nhiều hơn
+          so với hùa theo số đông.
+        </p>
+
+        <h1 class="text-lg md:text-xl text-gray-600 font-semibold">
+          Chọn đúng nhà cái để đặt cược
+        </h1>
+
+        <p>
+          Đây là một trong những mẹo quan trọng để bạn chiến thắng trò chơi
+          Keno. Một nhà cái rõ ràng về mặt pháp lý, có tiềm lực mạnh mẽ sẽ luôn
+          tốt hơn nhiều lần so với những nhà cái kém uy tín.
+        </p>
+
+        <p>
+          Keno 12Bet là một trong những nhà cái cực kỳ uy tín trên thị trường cá
+          cược trực tuyến. Nhà cái này được cấp giấy phép hoạt động bởi Chính
+          phủ Philippines và những tổ chức cờ bạc trực tuyến lớn nhất thế giới.
+        </p>
+
+        <p>
+          Do đó, người chơi có thể hoàn toàn yên tâm sẽ được bảo mật thông tin,
+          chính sách chơi cá cược minh bạch, rõ ràng, không lừa đảo.
+        </p>
+
+        <p>
+          Nhà cái 12Bet được thành lập từ năm 2008, cho đến nay đã qua 13 năm
+          hoạt động, là một sân chơi cá cược tầm cỡ quốc tế. Mức độ uy tín của
+          nhà cái 12Bet đã được kiểm chứng bởi hàng triệu người dùng trên khắp
+          thế giới.
+        </p>
+
+        <p>
+          Kho game ấn tượng, hàng ngàn sản phẩm cá cược để người chơi thoải mái
+          lựa chọn. Bạn yêu thích cá độ thể thao, đánh bài,
+          <span
+            class="text-red-500 transition-all duration-200 hover:text-gray-900 cursor-pointer"
+            >casino online</span
+          >, keno,
+          <span
+            class="text-red-500 transition-all duration-200 hover:text-gray-900 cursor-pointer"
+            >xổ số
+          </span>
+          hay các trò slot game,
+          <span
+            class="text-red-500 transition-all duration-200 hover:text-gray-900 cursor-pointer"
+          >
+            12bet number game
+          </span>
+          hiện đại…. 12BET đều đáp ứng đa dạng nhu cầu của người chơi.
+        </p>
+
+        <h1 class="text-xl md:text-2xl text-gray-600 font-semibold">
+          KẾT LUẬN
+        </h1>
+
+        <p>
+          Sản phẩm Keno 12Bet là một trong những loại hình thu hút đông đảo
+          người chơi bậc nhất tại nhà cái này. Điều đó đủ thể thấy sự hấp dẫn
+          của từng kèo cược cũng như uy tín của nhà cái 12BET.
+          <span
+            class="text-red-500 transition-all duration-200 hover:text-gray-900 cursor-pointer"
+          >
+            Đăng ký ngay 12Bet để nhận khuyến mãi 100% thưởng chào mừng
+          </span>
+          lên đến 6,688 triệu đồng bạn nhé!
+        </p>
+
+        <p class="font-bold">
+          Thuộc chủ đề:
+          <span
+            class="text-red-700 transition-all duration-200 hover:text-gray-900 cursor-pointer"
+          >
+            BLOG CÁ CƯỢC</span
+          >
+        </p>
+
+        <p class="border-b w-full border-gray-300 pt-5"></p>
+      </div>
+
+      <!-- footer -->
+      <div>
+        <div
+          class="py-10 px-4 md:px-8 xl:px-16 space-y-6 border-t-4 border-gray-200 lg:grid grid-cols-3 gap-10"
+        >
+          <div class="hidden"></div>
+          <div class="space-y-4 w-full">
+            <h1 class="text-xl md:text-2xl">THÔNG TIN 12BET NO1</h1>
+            <ul
+              class="space-y-2 text-red-500 *:py-3 *:border-b *:w-full *:flex *:items-center *:space-x-2 *:text-sm"
+            >
+              <li>
+                <img class="w-5" src="./Images/list.png" alt="" />
+                <p><a href="./gioi-thieu.html">Giới thiệu</a></p>
+              </li>
+              <li>
+                <img class="w-5" src="./Images/list.png" alt="" />
+                <p>
+                  <a href="./chinh-sach-bao-mat.html">Chính sách bảo mật</a>
+                </p>
+              </li>
+              <li>
+                <img class="w-5" src="./Images/list.png" alt="" />
+                <p>
+                  <a href="./dieu-khoan-su-dung.html">Điều khoản sử dụng</a>
+                </p>
+              </li>
+              <li>
+                <img class="w-5" src="./Images/list.png" alt="" />
+                <p>Liên hệ</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="space-y-4">
+            <h1 class="text-xl md:text-2xl">HỖ TRỢ ONLINE</h1>
+
+            <div class="text-sm w-full space-y-1 text-gray-500">
+              <p>
+                Website: https://12betno1.vip/ Maps: 12Bet 12BetNo1 – Trang Chủ
+                Chính Thức Nhà Cái 12BET
+              </p>
+              <p>
+                Địa chỉ: 90 Nguyễn Du, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh
+              </p>
+              <p>– Điện Thoại:</p>
+              <p>website: 168</p>
+            </div>
+
+            <div>
+              <a href="">
+                <button
+                  class="px-7 py-3 text-white bg-red-600 shadow text-sm hover:bg-red-700 transition-all duration-200"
+                >
+                  LẤY MÃ KHUYẾN MÃI
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div class="space-y-4">
+            <h1 class="text-xl md:text-2xl">SẢN PHẨM</h1>
+            <div class="text-gray-500 text-sm space-y-1">
+              <p>Thể Thao</p>
+              <p>Esports</p>
+              <p>Playtech</p>
+              <p>Casino</p>
+              <p>Casino Trực Tuyến</p>
+              <p>Trò Chơi Arcade</p>
+              <p>P2P</p>
+              <p>Keno</p>
+              <p>Number Game</p>
+              <p>Xổ Số</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="border-t-4 border-gray-200 py-10 space-y-6 text-center px-16"
+        >
+          <div class="flex justify-center items-center space-x-2">
+            <p class="text-xs text-gray-500">
+              COPYRIGHT © 2024 BY
+              <span class="text-red-500">12BETNO1.COM</span> • 12BET VIỆT NAM •
+            </p>
+            <div>
+              <img src="./Images/10003.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
